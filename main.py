@@ -24,3 +24,5 @@ while True:
     reviews = retriever.invoke(question)
     result = chain.invoke({"reviews": reviews, "question": question})
     print(result)
+
+##############################################################################################
