@@ -84,5 +84,5 @@ python main.py
 3. **Retrieval:** When you ask a question in `main.py`, the retriever fetches the top 5 most relevant reviews based on your query.
 4. **Generation:** LangChain formats these retrieved reviews into a prompt template and feeds them to `llama3.2`, which synthesizes a helpful, expert answer.
 
----
+
 -----------------------------------------------------------------------------------------------
