@@ -3,7 +3,7 @@
 
 # 🍕 Local Pizza Restaurant AI Agent (RAG)
 
-A fully local, private, and free-to-run AI agent built with **Python**, **LangChain**, and **Ollama**. This agent uses **Retrieval-Augmented Generation (RAG)** to act as an expert on a pizza restaurant, answering user questions based on a local dataset of customer reviews stored in a **ChromaDB** vector database.
+A fully local, private, and free-to-run AI agent built with Python, LangChain, and Ollama. This agent uses Retrieval-Augmented Generation (RAG) to act as an expert on a pizza restaurant, answering user questions based on a local dataset of customer reviews stored in a ChromaDB vector database.
 
 This is an setup! Building a RAG system completely locally with `llama3.2` and `mxbai-embed-large` is a fantastic way to keep your data private and avoid API costs. Plus, your implementation with the automatic ChromaDB initialization in `vector.py` makes it super clean.
 
