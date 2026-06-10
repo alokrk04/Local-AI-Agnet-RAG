@@ -16,11 +16,11 @@ This is an setup! Building a RAG system completely locally with `llama3.2` and `
 ---
 
 ## 🏗️ Technical Stack
-* **Framework:** [LangChain](https://python.langchain.com/)
-* **LLM:** [Ollama](https://ollama.com/) (`llama3.2`)
-* **Embeddings:** Ollama (`mxbai-embed-large`)
-* **Vector Database:** [ChromaDB](https://www.trychroma.com/)
-* **Data Handling:** Pandas
+* **Framework: [LangChain](https://python.langchain.com/)
+* **LLM: [Ollama](https://ollama.com/) (`llama3.2`)
+* **Embeddings: Ollama (`mxbai-embed-large`)
+* **Vector Database: [ChromaDB](https://www.trychroma.com/)
+* **Data Handling: Pandas
 
 ---
 
@@ -85,4 +85,4 @@ python main.py
 4. **Generation:** LangChain formats these retrieved reviews into a prompt template and feeds them to `llama3.2`, which synthesizes a helpful, expert answer.
 
 
------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
